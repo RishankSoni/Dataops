@@ -1,0 +1,134 @@
+{
+  "expectations": [
+    {
+      "id": "852f67c5-e165-4e9d-9b73-def82d2d56fc",
+      "kwargs": {
+        "column": "ride_id",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "6a57021b-dbef-469c-9252-74d44502e74d",
+      "kwargs": {
+        "column": "rideable_type",
+        "value_set": [
+          "docked_bike",
+          "electric_bike",
+          "classic_bike"
+        ]
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "8b6ce9b8-921f-4cee-9337-e977eeee510a",
+      "kwargs": {
+        "column": "started_at",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "35e873df-b4d3-4379-9a72-277cd7cf61d1",
+      "kwargs": {
+        "column": "ended_at",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "d7158bdf-0884-49de-abf0-ecc960d41f32",
+      "kwargs": {
+        "column": "start_station_name",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "efc8f81e-2ad1-41ce-b4aa-63c9b9835ee1",
+      "kwargs": {
+        "column": "start_station_id",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "a25f809a-9a94-406d-9afe-4354b429990d",
+      "kwargs": {
+        "column": "end_station_name",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "2cc0b3ff-ecfb-4df1-b7cd-b01d3baabf75",
+      "kwargs": {
+        "column": "end_station_id",
+        "type_": "str"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "6b0645e2-eea8-4d29-a7c5-5bc50027422b",
+      "kwargs": {
+        "column": "start_lat",
+        "type_": "float"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "9a664ab8-e65b-4b3c-8795-45f5047a07fe",
+      "kwargs": {
+        "column": "start_lng",
+        "type_": "float"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "97ec03bf-fb49-442d-9b58-8fd0e0c8777d",
+      "kwargs": {
+        "column": "end_lat",
+        "type_": "float"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "f009b6ae-f74e-403f-8bf4-6a076e7f2d24",
+      "kwargs": {
+        "column": "end_lng",
+        "type_": "float"
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_of_type"
+    },
+    {
+      "id": "33b2eb94-f81b-401f-8fcc-1a350e986cc3",
+      "kwargs": {
+        "column": "member_casual",
+        "value_set": [
+          "member",
+          "casual"
+        ]
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_in_set"
+    }
+  ],
+  "id": "84cf40e4-45bc-45e9-83c9-e876b3793207",
+  "meta": {
+    "great_expectations_version": "1.3.2"
+  },
+  "name": "datatype_validation_suite",
+  "notes": null
+}

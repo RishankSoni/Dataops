@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "name": "send_email_on_failure",
+      "notify_on": "failure",
+      "notify_with": null,
+      "receiver_emails": "23110277@iitgn.ac.in",
+      "renderer": {
+        "class_name": "EmailRenderer",
+        "module_name": "great_expectations.render.renderer.email_renderer"
+      },
+      "sender_alias": "23110249@iitgn.ac.in",
+      "sender_login": "23110249@iitgn.ac.in",
+      "sender_password": "yjxa mofg fvdt orhe",
+      "smtp_address": "smtp.gmail.com",
+      "smtp_port": "587",
+      "type": "email",
+      "use_ssl": null,
+      "use_tls": true
+    }
+  ],
+  "id": "1ecf41fd-983b-494a-953d-7490923a36ac",
+  "name": "my_checkpoint",
+  "result_format": {
+    "result_format": "COMPLETE"
+  },
+  "validation_definitions": [
+    {
+      "id": "4a19ab38-506c-4502-b140-2739242b0a03",
+      "name": "my_validation_definition"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "4b4bdebb-d3b5-4cde-abcd-434c8fb370bf",
+      "name": "my_dataframe_data_asset"
+    },
+    "batch_definition": {
+      "id": "2b7919ef-015f-484d-8d69-2abe5264e8b9",
+      "name": "batch definition"
+    },
+    "datasource": {
+      "id": "739d5b3c-6789-418b-9884-450bccb7a666",
+      "name": "my_data_source"
+    }
+  },
+  "id": "4a19ab38-506c-4502-b140-2739242b0a03",
+  "name": "my_validation_definition",
+  "suite": {
+    "id": "84cf40e4-45bc-45e9-83c9-e876b3793207",
+    "name": "datatype_validation_suite"
+  }
+}
